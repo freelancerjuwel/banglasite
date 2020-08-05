@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    background: #3f5c9a;
+}
+
+#inner{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*-------head-------*/
+
+#header{
+    background: white;
+    padding: 15px 0;
+   
+}
+#header p{
+    margin-left: 40px;
+    
+}
+
+/*-------navbar-------*/
+
+#nav{ 
+    display: flex;
+    background: green;
+    justify-content: space-between;
+
+}
+.menu{
+    background: green;
+    display: flex;
+    align-items: center; 
+    height: 50px;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.menu li a{
+    font-size:20px;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+
+
+
+/*-------search-------*/
+
+.search{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.search label{
+    font-size: 20px;
+    margin-right: 10px;
+   
+}
+
+.search input{
+    width: 150px;
+    height: 40px;
+    border-radius:5px;
+    border: none;
+        
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search button{
+    padding:12px;
+    border-radius:5px;
+    background: red;
+    border: 1px solid white;
+    margin-left: 5px;
+    
+}
+
+/*-------text-------*/
+
+#text{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 15px;
+    background: #f1f1f1;
+}
+.paragraph {
+    margin-right: 25px;
+}
+
+
+.paragraph h1{
+    padding: 15px 0 25px 0;
+}
+.paragraph p{
+    font-size: 25px;
+}
+
+
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.left-side{
+   width: 750px;
+    
+}
+
+
+.icon{
+    width: 200px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+}
+
+.icon img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    
+}
+
+.icon a{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.right-side{
+    width: 400px;
+}
+
+.head{
+    padding: 20px 0;
+}
+
+.head h1{
+    margin-bottom: 10px;
+}
+
+
+
+.side-icon{
+    float: left;
+    width: 150px;
+    margin: 0 50px 30px 0;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: black;
+}
+.footer p{
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+
+
+
